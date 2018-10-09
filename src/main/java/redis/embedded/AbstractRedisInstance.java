@@ -124,7 +124,7 @@ abstract class AbstractRedisInstance implements Redis {
             try {
                 String line;
                 while ((line = reader.readLine()) != null) {
-                    System.out.println(line);
+                    System.out.println(String.format("[Redis] - %s", line));
                 }
             } catch (IOException ignored) {
             }

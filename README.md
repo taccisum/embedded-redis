@@ -180,6 +180,10 @@ Contributors
 Changelog
 ==============
 
+### 0.7 - taccisum ver.
+ * Output all Redis log into console
+ * Support FreePortProvider
+
 ### 0.6
  * Support JDK 6 +
 
